@@ -2,8 +2,24 @@ package utils
 
 import (
 	"regexp"
+	"runtime"
 	"strings"
 )
+
+func getFullFunctionName(depth int) string {
+	function, _, _, _ := runtime.Caller(depth)
+	return runtime.FuncForPC(function).Name()
+}
+
+func GetCallingPackageName() string {
+	name := getFullFunctionName(3)
+
+	holder := strings.Split(name, ".")
+	holder = strings.Split(holder[0], "/")
+	name = holder[len(holder)-1]
+
+	return name
+}
 
 func Hyphenate(s string) string {
 	exp := regexp.MustCompile("([A-Z])")
