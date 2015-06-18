@@ -10,6 +10,6 @@ type BaseModel struct {
 }
 
 // Set the parent controller for the model
-func (m *BaseModel) SetParent(c *BaseController) {
+func (m *BaseModel) setParent(c *BaseController) {
 	c.model = m
 }

@@ -9,7 +9,7 @@ import (
 
 // Define the ControllerChild interface
 type ControllerChild interface {
-	SetParent(*BaseController)
+	setParent(*BaseController)
 }
 
 // Define the controller interface
@@ -34,8 +34,11 @@ type BaseController struct {
 
 // Set the base model and view for the controller
 func (c *BaseController) SetModelAndView(m Model, v View) {
-	m.SetParent(c)
-	v.SetParent(c)
+	// A rather obtuse way of getting things right
+	// However, this has been thought through, and it is how you get things
+	// working correctly in Go
+	m.setParent(c)
+	v.setParent(c)
 
 	// Set the module name for the view
 	v.setPackageName(utils.GetCallingPackageName())

@@ -18,7 +18,7 @@ type BaseView struct {
 }
 
 // Set the parent controller
-func (v *BaseView) SetParent(c *BaseController) {
+func (v *BaseView) setParent(c *BaseController) {
 	c.view = v
 }
 
