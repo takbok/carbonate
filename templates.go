@@ -36,5 +36,5 @@ func checkAndParsePackageTemplates(base string) {
 	}
 
 	// Parse the templates and store them under the module name
-	Templates[base] = template.Must(template.ParseGlob(`packages/` + base + `/templates/*.tmpl`))
+	Templates[base] = template.Must(template.ParseGlob(`modules/` + base + `/templates/*.tmpl`))
 }
