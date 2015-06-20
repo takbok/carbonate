@@ -6,8 +6,8 @@
  *
  * Everything is organized into multiple modules.
  *
- * It's advisable to have a "packages" folder in the same directory as the framework
- * folder. The "packages" folder should have all the modules, each under a directory
+ * It's advisable to have a "modules" folder in the same directory as the framework
+ * folder. The "modules" folder should have all the modules, each under a directory
  * names after the module, and each module having a similar Go package name.
  *
  * Each module should also have a directory called "templates" with ONE OR MORE
@@ -16,7 +16,7 @@
  * The structure should be like
  * + framework
  *   - (this framework)
- * + packages
+ * + modules
  *   + module1
  *     + templates
  *       - template1.tmpl
