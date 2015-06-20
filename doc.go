@@ -1,7 +1,7 @@
 /**
- * The Takbok framework is an HMVC framework for Go.
+ * Brahma is an HMVC framework for Go.
  *
- * The framework package contains the Model, View and Controller, along with the
+ * The brahma package contains the Model, View and Controller, along with the
  * Request dispatcher and the Template handler
  *
  * Everything is organized into multiple modules.
@@ -74,4 +74,4 @@
  *        }
  *
  */
-package framework
+package brahma

@@ -1,11 +1,11 @@
-// The Takbok Module package contains methods to set various properties for each module
+// The Brahma Module package contains methods to set various properties for each module
 package module
 
 import (
 	"net/http"
 
-	"kodeclan.com/framework/router"
-	"kodeclan.com/framework/utils"
+	"bitbucket.org/takbok/brahma/router"
+	"bitbucket.org/takbok/brahma/utils"
 )
 
 // Set the default controller method for this module

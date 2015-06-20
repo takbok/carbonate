@@ -1,4 +1,4 @@
-// The Takbok router package contains methods to route various real world URLs
+// The Brahma router package contains methods to route various real world URLs
 // to functions and methods, including static routing
 package router
 
@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strings"
 
-	"kodeclan.com/framework/utils"
+	"bitbucket.org/takbok/brahma/utils"
 )
 
 // A map of all the static routes

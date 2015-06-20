@@ -1,10 +1,10 @@
-package framework
+package brahma
 
 import (
 	"fmt"
 	"net/http"
 
-	"kodeclan.com/framework/utils"
+	"bitbucket.org/takbok/brahma/utils"
 )
 
 // Define the ControllerChild interface

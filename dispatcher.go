@@ -1,10 +1,10 @@
-package framework
+package brahma
 
 import (
 	"net/http"
 	"reflect"
 
-	"kodeclan.com/framework/router"
+	"bitbucket.org/takbok/brahma/router"
 )
 
 // Dispatch the request to the designated module and method.

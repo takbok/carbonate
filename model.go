@@ -1,4 +1,4 @@
-package framework
+package brahma
 
 // The model interface
 type Model interface {

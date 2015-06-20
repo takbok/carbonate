@@ -1,4 +1,4 @@
-// The Takbok Utilities package contains commonly used functions for
+// The Brahma Utilities package contains commonly used functions for
 // manipulating URLs and accessing package name
 package utils
 
