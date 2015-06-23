@@ -1,7 +1,7 @@
 /**
- * Brahma is an HMVC framework for Go.
+ * Carbonate is an HMVC framework for Go.
  *
- * The brahma package contains the Model, View and Controller, along with the
+ * The carbonate package contains the Model, View and Controller, along with the
  * Request dispatcher and the Template handler
  *
  * Everything is organized into multiple modules.
@@ -74,4 +74,4 @@
  *        }
  *
  */
-package brahma
+package carbonate
