@@ -4,8 +4,8 @@ package module
 import (
 	"net/http"
 
-	"bitbucket.org/takbok/carbonate/router"
-	"bitbucket.org/takbok/carbonate/utils"
+	"bitbucket.org/carbonate/carbonate/router"
+	"bitbucket.org/carbonate/carbonate/utils"
 )
 
 // Set the default controller method for this module

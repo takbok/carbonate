@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strings"
 
-	"bitbucket.org/takbok/carbonate/utils"
+	"bitbucket.org/carbonate/carbonate/utils"
 )
 
 // A map of all the static routes
