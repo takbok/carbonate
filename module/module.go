@@ -1,11 +1,11 @@
-// The Brahma Module package contains methods to set various properties for each module
+// The carbonate Module package contains methods to set various properties for each module
 package module
 
 import (
 	"net/http"
 
-	"bitbucket.org/takbok/brahma/router"
-	"bitbucket.org/takbok/brahma/utils"
+	"bitbucket.org/carbonate/carbonate/router"
+	"bitbucket.org/carbonate/carbonate/utils"
 )
 
 // Set the default controller method for this module

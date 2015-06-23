@@ -1,4 +1,4 @@
-package brahma
+package carbonate
 
 // The model interface
 type Model interface {

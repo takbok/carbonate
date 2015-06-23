@@ -1,4 +1,4 @@
-// The Brahma Utilities package contains commonly used functions for
+// The carbonate Utilities package contains commonly used functions for
 // manipulating URLs and accessing package name
 package utils
 

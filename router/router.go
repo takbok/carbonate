@@ -1,4 +1,4 @@
-// The Brahma router package contains methods to route various real world URLs
+// The carbonate router package contains methods to route various real world URLs
 // to functions and methods, including static routing
 package router
 
@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strings"
 
-	"bitbucket.org/takbok/brahma/utils"
+	"bitbucket.org/carbonate/carbonate/utils"
 )
 
 // A map of all the static routes

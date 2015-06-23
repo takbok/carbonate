@@ -1,10 +1,10 @@
-package brahma
+package carbonate
 
 import (
 	"net/http"
 	"reflect"
 
-	"bitbucket.org/takbok/brahma/router"
+	"bitbucket.org/carbonate/carbonate/router"
 )
 
 // Dispatch the request to the designated module and method.
