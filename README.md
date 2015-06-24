@@ -2,7 +2,7 @@
 
 ##About
 
-Carbonate was developed keeping Google App Engine and, currently, works with the Google App Engine SDK for Go only.
+Carbonate was developed for use with Google App Engine and, currently, works with the Google App Engine SDK for Go only.
 
 Carbonate heavily follows convention over configuration. 
 
